@@ -1,0 +1,32 @@
+package com.springbook.admin.web;
+
+import com.springbook.admin.service.posts.PostsService;
+import com.springbook.admin.web.dto.PostsResponseDto;
+import com.springbook.admin.web.dto.PostsSaveRequestDto;
+import com.springbook.admin.web.dto.PostsUpdateRequestDto;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.*;
+
+@RequiredArgsConstructor
+@RestController
+public class PostsApiController {
+
+    private final PostsService postsService;
+
+    @PostMapping("/api/v1/posts")
+    public Long save(@RequestBody PostsSaveRequestDto requestDto){
+        return postsService.save(requestDto);
+    }
+
+
+    @PutMapping("/api/v1/posts/{id}")
+    public Long update(@PathVariable Long id, @RequestBody PostsUpdateRequestDto requestDtd){
+        return postsService.update(id,requestDtd);
+    }
+
+    @GetMapping("/api/v1/posts/{id}")
+    public PostsResponseDto findById(@PathVariable(name="id") Long id){
+        return postsService.findById(id);
+    }
+
+}
