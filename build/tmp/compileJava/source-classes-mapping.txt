@@ -19,11 +19,11 @@ com/springbook/admin/domain/posts/PostsRepository.java
  com.springbook.admin.domain.posts.PostsRepository
 com/springbook/admin/web/dto/HelloResponseDto.java
  com.springbook.admin.web.dto.HelloResponseDto
-com/springbook/admin/domain/posts/Posts.java
- com.springbook.admin.domain.posts.Posts
- com.springbook.admin.domain.posts.Posts$PostsBuilder
+com/springbook/admin/web/IndexController.java
+ com.springbook.admin.web.IndexController
 com/springbook/admin/web/dto/PostsSaveRequestDto.java
  com.springbook.admin.web.dto.PostsSaveRequestDto
  com.springbook.admin.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/springbook/admin/web/IndexController.java
- com.springbook.admin.web.IndexController
+com/springbook/admin/domain/posts/Posts.java
+ com.springbook.admin.domain.posts.Posts
+ com.springbook.admin.domain.posts.Posts$PostsBuilder
