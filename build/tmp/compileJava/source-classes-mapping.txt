@@ -1,17 +1,25 @@
 com/springbook/admin/web/dto/PostsResponseDto.java
  com.springbook.admin.web.dto.PostsResponseDto
+com/springbook/admin/config/auth/CustomOAuth2UserService.java
+ com.springbook.admin.config.auth.CustomOAuth2UserService
+com/springbook/admin/domain/user/UserRepository.java
+ com.springbook.admin.domain.user.UserRepository
 com/springbook/admin/web/dto/PostsListResponseDto.java
  com.springbook.admin.web.dto.PostsListResponseDto
-com/springbook/admin/Application.java
- com.springbook.admin.Application
+com/springbook/admin/domain/user/Role.java
+ com.springbook.admin.domain.user.Role
 com/springbook/admin/domain/BaseTimeEntity.java
  com.springbook.admin.domain.BaseTimeEntity
 com/springbook/admin/web/HelloController.java
  com.springbook.admin.web.HelloController
+com/springbook/admin/config/auth/LoginUser.java
+ com.springbook.admin.config.auth.LoginUser
 com/springbook/admin/service/posts/PostsService.java
  com.springbook.admin.service.posts.PostsService
 com/springbook/admin/web/PostsApiController.java
  com.springbook.admin.web.PostsApiController
+com/springbook/admin/config/auth/LoginUserArgumentResolver.java
+ com.springbook.admin.config.auth.LoginUserArgumentResolver
 com/springbook/admin/web/dto/PostsUpdateRequestDto.java
  com.springbook.admin.web.dto.PostsUpdateRequestDto
  com.springbook.admin.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
@@ -21,9 +29,25 @@ com/springbook/admin/web/dto/HelloResponseDto.java
  com.springbook.admin.web.dto.HelloResponseDto
 com/springbook/admin/web/IndexController.java
  com.springbook.admin.web.IndexController
+com/springbook/admin/config/auth/dto/SessionUser.java
+ com.springbook.admin.config.auth.dto.SessionUser
 com/springbook/admin/web/dto/PostsSaveRequestDto.java
  com.springbook.admin.web.dto.PostsSaveRequestDto
  com.springbook.admin.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/springbook/admin/config/auth/SecurityConfig.java
+ com.springbook.admin.config.auth.SecurityConfig
 com/springbook/admin/domain/posts/Posts.java
  com.springbook.admin.domain.posts.Posts
  com.springbook.admin.domain.posts.Posts$PostsBuilder
+com/springbook/admin/config/auth/dto/OAuthAttributes.java
+ com.springbook.admin.config.auth.dto.OAuthAttributes
+ com.springbook.admin.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/springbook/admin/domain/user/User.java
+ com.springbook.admin.domain.user.User
+ com.springbook.admin.domain.user.User$UserBuilder
+com/springbook/admin/config/WebConfig.java
+ com.springbook.admin.config.WebConfig
+com/springbook/admin/Application.java
+ com.springbook.admin.Application
+com/springbook/admin/config/JpaConfig.java
+ com.springbook.admin.config.JpaConfig
